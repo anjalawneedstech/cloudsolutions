@@ -198,7 +198,10 @@ background-color: #313B89 !important;
 hr{
 }
 .table-responsive + p a.btn-success, .btn.dacollectadd {
-border-radius : undefined !important;
+color: #fff !important;
+background-color: #313B89 !important;
+border-color: transparent !important;
+font-family: 'Inter', sans-serif !important;
 }
 .table-responsive + p a.btn-success:hover, .btn.dacollectadd:hover{
 color: #fff !important;
@@ -325,10 +328,6 @@ font-size: 22px;
 }
 select option[value=""]{
 display: none; }
-.da-field-checkboxes label[aria-label=""] {
-display: none !important;
-}
-
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
 }
