@@ -262,21 +262,24 @@ max-width: 100% !important;
 }
 
 .da-subquestion form#daform {
-display: block !important;
-width: 100% !important;
-max-width: 100% !important;
-grid-template-columns: unset !important;
+display: grid !important;
+grid-template-columns: 100%;
+align-items: start;
+grid-column-gap: 0px;
 }
 
 .da-subquestion .table-responsive {
-width: 100% !important;
-max-width: 100% !important;
-display: block;
+display: grid !important;
+grid-template-columns: 100%;
+align-items: start;
+grid-column-gap: 0px;
 }
 
 .da-subquestion .table-responsive table {
-width: 100% !important;
-table-layout: fixed;
+display: grid !important;
+grid-template-columns: 100%;
+align-items: start;
+grid-column-gap: 0px;
 }
 
 .da-subquestion .table-responsive table th,
@@ -362,34 +365,4 @@ select option[value=""]{
 display: none; }
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
-}
-form#daform:has(.da-subquestion) {
-  display: block !important;
-  grid-template-columns: none !important;
-  grid-column-gap: 0 !important;
-}
-
-/* Remove any “span-both-columns” instructions on header, notes, buttons, etc */
-form#daform:has(.da-subquestion) .da-page-header,
-form#daform:has(.da-subquestion) fieldset.da-field-buttons,
-form#daform:has(.da-subquestion) .row.da-field-container.da-field-container-note,
-form#daform:has(.da-subquestion) .dashowif .form-group,
-form#daform:has(.da-subquestion) .showif .form-group,
-form#daform:has(.da-subquestion) .form-group.da-group-has-error,
-form#daform:has(.da-subquestion) .form-group.has-error {
-  grid-column-start: auto !important;
-  grid-column-end:   auto !important;
-}
-
-/* Ensure tables etc still span full width */
-form#daform:has(.da-subquestion) .table-responsive {
-  width:     100% !important;
-  max-width: 100% !important;
-}
-
-/* Mobile tweak: single-column at small breakpoints */
-@media only screen and (max-width: 575px) {
-  form#daform:has(.da-subquestion) {
-    grid-template-columns: 100% !important;
-  }
 }
