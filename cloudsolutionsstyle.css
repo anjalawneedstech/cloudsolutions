@@ -271,7 +271,10 @@ max-width: 100% !important;
   width: 100%    !important;
 }
 
-.da-subquestion .table-responsive table th,
+.da-subquestion .table-responsive table th{
+  background-color: #313B89 !important;
+  color:            #ffffff !important;
+},
 .da-subquestion .table-responsive table td {
 padding: 8px;
 word-wrap: break-word;
@@ -354,21 +357,4 @@ select option[value=""]{
 display: none; }
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
-}
-.da-subquestion table.table thead th {
-  background-color: #313B89 !important;
-  color:            #ffffff !important;
-}
-
-/* Zebra striping using your light tint */
-.da-subquestion table.table tbody tr:nth-of-type(odd) {
-  background-color: #e6f7fd !important;
-}
-.da-subquestion table.table tbody tr:nth-of-type(even) {
-  background-color: #ffffff !important;
-}
-
-/* Row hover with your secondary blue */
-.da-subquestion table.table tbody tr:hover {
-  background-color: #b3e6fa !important;
 }
