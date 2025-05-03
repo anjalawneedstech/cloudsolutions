@@ -147,12 +147,12 @@ background-color: #e6f7fd !important;
 .da-review-button{
 }
 #daform .da-review-action.da-review-action-button, table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger) {
-color: #ef6e32 !important;
+color: #313B89 !important;
 border-color: #d9e3f0 !important;
 background-color: #ffffff !important;
 }
 #daform .da-review-action.da-review-action-button:hover, table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover{
-color: #fff !important;
+color: #00adef !important;
 border-color: #0069d9 !important;
 background-color: #ef6e32 !important;
 }
