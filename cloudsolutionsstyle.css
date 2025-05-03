@@ -262,25 +262,11 @@ width: 100% !important;
 max-width: 100% !important;
 }
 
-.da-subquestion form#daform {
-display: grid !important;
-grid-template-columns: 100%;
-align-items: start;
-grid-column-gap: 0px;
-}
-
-.da-subquestion .table-responsive {
-display: grid !important;
-grid-template-columns: 100%;
-align-items: start;
-grid-column-gap: 0px;
-}
-
+.da-subquestion form#daform,
+.da-subquestion .table-responsive,
 .da-subquestion .table-responsive table {
-display: grid !important;
-grid-template-columns: 100%;
-align-items: start;
-grid-column-gap: 0px;
+  display: block !important;
+  width: 100%    !important;
 }
 
 .da-subquestion .table-responsive table th,
