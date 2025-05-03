@@ -354,7 +354,3 @@ display: none; }
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
 }
-.da-subquestion table.table thead th {
-  background-color: #313B89 !important;
-  color:            #ffffff !important;
-}
