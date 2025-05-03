@@ -146,16 +146,6 @@ background-color: #e6f7fd !important;
 }
 .da-review-button{
 }
-#daform .da-review-action.da-review-action-button, table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger) {
-color: #ffffff !important;
-border-color: #ffffff !important;
-background-color: #dd8507 !important;
-}
-#daform .da-review-action.da-review-action-button:hover, table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover{
-color: #fff !important;
-border-color: #0069d9 !important;
-background-color: #3163e5 !important;
-}
 .da-review-button p{
 }
 .select2-container--default .select2-selection--single, .select2-container--default .select2-search--dropdown .select2-search__field {
@@ -207,13 +197,6 @@ font-family: 'Inter', sans-serif !important;
 .table-responsive + p a.btn-success:hover, .btn.dacollectadd:hover{
 color: #fff !important;
 background-color: #00adef !important;
-}
-table.table.table-striped tr td a.btn.btn-darevisit.btn-danger, button.btn.dacollectremoveexisting, button.btn.dacollectremove{
-}
-table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover, button.btn.dacollectremoveexisting:hover, button.btn.dacollectremove:hover{
-background-color : rgb(197 59 0 / 100%) !important;
-color : #fff !important;
-border-color : rgb(197 59 0 / 100%) !important;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 font-family: 'Inter', sans-serif !important;
