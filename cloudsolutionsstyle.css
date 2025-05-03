@@ -1,61 +1,43 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins");
-#hslNav{ display: none !important; }
-.linksContainer{ display: none !important; }
-body{ background-color: #ffffff !important; }
-#hslNav{ background-color: #ffffff !important; }
-.da-attachment-email-all{ display: none !important; }
-.da-attachment-download-all{ display: none !important; }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+  font-family: 'Inter', sans-serif;
+}
 .daundertext a{
-color: #3163e5 !important;
+color: #313B89 !important;
 }
 .daundertext a:hover{
 }
 .nav-pills .nav-link:not(.active):not(.text-muted)::before {
-border: 2px solid #3163e5 !important;
+border: 2px solid #313B89 !important;
 }
 .nav-pills .nav-link:not(.active):not(.text-muted)::after {
-color: #3163e5 !important;
+color: #313B89 !important;
 }
 .nav-pills .nav-link:not(.active):not(.text-muted) {
-color: #3163e5 !important;
+color: #313B89 !important;
 }
 .nav-link{
-font-family: "Poppins" !important;
-border-width: 2px !important;
-border-radius: 8px !important;
-color: #3163e5 !important;
-border-color: #ffffff !important;
-background-color: #ffffff !important;
+font-family: 'Inter', sans-serif !important;
 }
 .nav-link.active{
-font-family: "Poppins" !important;
-border-width: 2px !important;
-border-radius: 8px !important;
-color: #d9e3f0 !important;
-border-color: #ffffff !important;
-background-color: #3163e5 !important;
+font-family: 'Inter', sans-serif !important;
+color: #fff !important;
+border-color: #fff !important;
+background-color: #313B89 !important;
 }
 .row.da-field-container.da-field-container-note, .da-subquestion{
-color: #000000 !important;
-font-family: "Poppins" !important;
 }
 .row.da-field-container.da-field-container-note a{
-color: #3163e5 !important;
+color: #313B89 !important;
 }
 .row.da-field-container.da-field-container-note a:hover{
 }
 .da-page-header {
-border-bottom-color: #dd8507 !important;
-border-bottom-width: 3px !important;
 }
 .da-page-header h1 {
-font-size: 36px !important;
-font-family: "Poppins" !important;
+font-family: 'Inter', sans-serif !important;
 }
 .da-form-label {
-font-size: 19px !important;
-font-family: "Poppins" !important;
-font-weight: 500 !important;
 }
 .da-field-container-datatype-text .dafieldpart input,
 .da-field-container-datatype-integer .dafieldpart input,
@@ -64,47 +46,26 @@ font-weight: 500 !important;
 .da-field-container-datatype-number .dafieldpart input,
 .da-field-container-datatype-csv .dafieldpart input
 {
-font-size: 18px !important;
-font-family: "Poppins" !important;
-border-color: #dd8507 !important;
-border-style: dotted !important;
-border-width: 1px !important;
-border-radius: 10px !important;
 background-color: #fff !important;
 }
 .da-field-container-inputtype-area .dafieldpart textarea {
-font-size: 18px !important;
-font-family: "Poppins" !important;
-border-color: #dd8507 !important;
-border-style: dotted !important;
-border-width: 1px !important;
-border-radius: 10px !important;
 background-color: #fff !important;
 }
 input.labelauty + label.btn-light{
-font-size: 18px !important;
-font-family: "Poppins" !important;
-border-color: #dd8507 !important;
-border-radius: 10px !important;
 background-color: #fff !important;
 }
 input.labelauty + label.btn-primary{
-font-size: 18px !important;
-font-family: "Poppins" !important;
-border-color: #dd8507 !important;
-border-radius: 10px !important;
-background-color: #3163e5 !important;
+background-color: #b3e6fa !important;
 }
 input.labelauty + label.btn-light:hover, input.labelauty + label.btn-primary:hover{
-background-color: #d4defa !important;
+background-color: #e6f7fd !important;
 }
 .labelauty-checked-image{
 background-color: #fff !important;
-box-shadow: 0 0 0 3px #fff, 0 0 0 5px #eea631 !important;
-background-color: #eea631 !important;
+box-shadow: 0 0 0 3px #fff, 0 0 0 5px #313B89 !important;
+background-color: #313B89 !important;
 }
 .labelauty-checked{
-color: #ffffff !important;
 }
 .labelauty-unchecked-image{
 background-color: #fff !important;
@@ -112,194 +73,136 @@ background-color: #fff !important;
 .labelauty-unchecked{
 }
 .da-field-checkboxes span.labelauty-checked-image{
-box-shadow: #d4defa 0px 0px 0px 1px !important;
-background-color: #d4defa !important;
-box-shadow: #eea631 0px 0px 0px 1px !important;
-background-color: #eea631 !important;
+background-color: #fff !important;
+background-color: #313B89 !important;
 }
 .da-field-checkboxes span.labelauty-unchecked-image {
-box-shadow: #d4defa 0px 0px 0px 1px !important;
-background-color: #d4defa !important;
+background-color: #fff !important;
 }
 span.da-has-error {
-font-family: "Poppins" !important;
 }
 .invalid-feedback{
 }
 .combobox-container input{
-font-size: 18px !important;
-font-family: "Poppins" !important;
-font-weight: 500 !important;
-border-color: #dd8507 !important;
 }
 .dropdown-menu{
-font-size: 15px !important;
-font-family: "Poppins" !important;
-border-color: #000000 !important;
-border-width: 0px !important;
-border-radius: 5px !important;
-background-color: #d4defa !important;
+background-color: #fff !important;
 }
 .dacomboboxtoggle{
-color: #ffffff !important;
-border-color: #dd8507 !important;
-background-color: #eea631 !important;
+color: #313B89 !important;
+border-color:  #313B89 !important;
 }
 .dacomboboxtoggle:hover{
-color: #ffffff !important;
-background-color: #3163e5 !important;
+color: #fff !important;
+background-color: #313B89 !important;
 }
 .dropdown-item{
-color: #000000 !important;
-background-color: #d4defa !important;
 }
 .dropdown-item:hover, .dropdown-item.active{
-background-color: #3163e5 !important;
+background-color: #313B89 !important;
 }
 .form-select {
 background-color: #fff !important;
-font-size: 18px !important;
-font-family: "Poppins" !important;
-border-color: #dd8507 !important;
-border-style: dotted !important;
-border-width: 1px !important;
-border-radius: 10px !important;
 background-color: #fff !important;
 }
 button.daquestionbackbutton.btn-light{
 border-color:transparent !important;
 }
 button.daquestionbackbutton {
-color: #3163e5 !important;
-font-size: 15px !important;
-font-family: "Poppins" !important;
-padding-top: 0px !important;
-padding-left: 1px !important;
-border-radius: -1px !important;
-padding-right: 20px !important;
+color: #00adef !important;
 }
 button.daquestionbackbutton:hover {
-color: #3163e5 !important;
 }
 fieldset.daFieldButtons {
-margin-left: 0px !important;
 }
 .btn.btn-da.btn-primary, .btn.btn-primary:disabled, .btn.btn-primary.disabled, .btn-secondary.disabled, .btn-secondary:disabled {
-color: #ffffff !important;
-font-size: 17px !important;
-font-family: "Poppins" !important;
-font-weight: 600 !important;
-border-radius: 6px !important;
-background-color: #3163e5 !important;
+color: #fff !important;
+background-color: #313B89 !important;
 }
 .btn.btn-da.btn-primary{
 border-color:transparent !important;
 }
 .btn.btn-da.btn-secondary, p .btn-secondary.btn-sm {
-color: #ffffff !important;
-font-family: "Poppins" !important;
-border-radius: 7px !important;
-background-color: #d4defa !important;
+color: #fff !important;
+background-color: #00adef !important;
 border-width : 0px !important;
 }
 .btn.btn-da.btn-secondary:hover, p .btn-secondary.btn-sm:hover {
-color: #fff !important;
-background-color: #d9e3f0 !important;
-border-color : #d9e3f0 !important;
+color: #ffffff !important;
+background-color: #b3e6fa !important;
+border-color : #b3e6fa !important;
 }
 .btn-warning {
 border-color: transparent !important;
-border-radius: 6px !important;
-font-family: "Poppins" !important;
-font-size: 17px !important;
-color: #000000 !important;
-background-color: #d4defa !important;
 }
 .btn.btn-da.btn-primary:hover{
-color: #ffffff !important;
-background-color: #d4defa !important;
+color: #fff !important;
+background-color: #00adef !important;
 }
 .row.da-field-container.da-field-container-note  h4{
-color: #000000 !important;
-font-family: "Poppins" !important;
 }
 .bg-light{
-background-color: #f8dbad !important;
+background-color: #e6f7fd !important;
 }
 .da-review-button{
-border-radius: 5px !important;
 }
 #daform .da-review-action.da-review-action-button, table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger) {
-color: #ffffff !important;
-border-color: #ffffff !important;
-background-color: #dd8507 !important;
+color: #00adef !important;
+background-color: #b3e6fa !important;
 }
 #daform .da-review-action.da-review-action-button:hover, table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover{
 color: #fff !important;
 border-color: #0069d9 !important;
-background-color: #3163e5 !important;
+background-color: #00adef !important;
 }
 .da-review-button p{
-font-family: "Poppins" !important;
 }
 .select2-container--default .select2-selection--single, .select2-container--default .select2-search--dropdown .select2-search__field {
-font-size: 18px !important;
-font-family: "Poppins" !important;
-border-color: #dd8507 !important;
-border-style: dotted !important;
-border-width: 1px !important;
-border-radius: 10px !important;
 background-color: #fff !important;
 }
 .select2-container--default .select2-search--dropdown .select2-search__field  {
-outline-color : #dd8507 !important;
-outline-style :  dotted !important;
+outline-color : undefined !important;
+outline-style :  undefined !important;
 }
 .select2-container--default .select2-selection--single .select2-selection__placeholder{
-font-family: "Poppins" !important;
+font-family: undefined !important;
 }
 .select2-results__option{
-font-family: "Poppins" !important;
+font-family: undefined !important;
 }
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable
 {
-font-size: 15px !important;
-font-family: "Poppins" !important;
-border-color: #000000 !important;
-border-width: 0px !important;
-border-radius: 5px !important;
-background-color: #d4defa !important;
+background-color: #fff !important;
 }
 .select2-container--default .select2-results__option--selectable.select2-results__option--highlighted{
-color: #ffffff !important;
-background-color: #3163e5 !important;
+color: #fff !important;
+background-color: #313B89 !important;
 }
 .text-info{
-color : #dd8507 !important;
+color : #313B89 !important !important;
 }
 .text-info:hover{
 color : #1678b2 !important !important;
 }
 .da-attachment-title-wrapper h3{
+font-family: 'Inter', sans-serif !important;
 }
 .da-attachment-download-wrapper p a {
-background-color: #d9e3f0 !important;
+color: #313B89 !important;
+background-color: #e6f7fd !important;
 }
 .da-attachment-download-wrapper p a:hover{
 color: #fff !important;
+background-color: #313B89 !important;
 }
 hr{
-background-color: #dd8507 !important;
 }
 .table-responsive + p a.btn-success, .btn.dacollectadd {
-color: #3163e5 !important;
-border-color: #3163e5 !important;
-background-color: #d4defa !important;
-border-radius : 6px !important;
+border-radius : undefined !important;
 }
 .table-responsive + p a.btn-success:hover, .btn.dacollectadd:hover{
-color: #ffffff !important;
-background-color: #d4defa !important;
+color: #fff !important;
+background-color: #00adef !important;
 }
 table.table.table-striped tr td a.btn.btn-darevisit.btn-danger, button.btn.dacollectremoveexisting, button.btn.dacollectremove{
 }
@@ -309,53 +212,123 @@ color : #fff !important;
 border-color : rgb(197 59 0 / 100%) !important;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
-font-family: "Poppins" !important;
+font-family: 'Inter', sans-serif !important;
 }
 .da-subquestion h2, .h2{
-color: #000000 !important;
-font-family: "Poppins" !important;
-font-size: 30px !important;
 }
 .table.table-striped thead th{
-font-family: "Poppins" !important;
+font-family: undefined !important;
 }
 .table-striped tbody tr:nth-of-type(2n+1), .table.table-striped thead th{
-background-color: #ffffff !important;
 }
 .table-striped tbody tr:nth-of-type(2n){
-background-color: #ffffff !important;
+background-color: #fff !important;
 }
 .table > :not(caption) > * > *{
 box-shadow: none !important;
 }
 .table tr{
-font-family: "Poppins" !important;
 }
 .btn-info{
-background-color : #3163e5 !important;
-border-color : #3163e5 !important;
-color : #ffffff !important;
-font-family: "Poppins" !important;
-border-radius : 6px !important;
+background-color : #313B89 !important;
+border-color : #313B89 !important;
+color : #fff !important;
+font-family: undefined !important;
+border-radius : undefined !important;
 }
 .btn-info:hover{
-background-color : #d4defa !important;
-border-color : #d4defa !important;
-color : #ffffff !important;
+background-color : #00adef !important;
+border-color : #00adef !important;
+color : #fff !important;
 }
 .btn-secondary:focus, .btn-secondary.focus,     .btn.btn-da.btn-primary:focus, .btn-primary:focus{
 box-shadow: none !important;
+}
+form#daform {
+display: grid;
+grid-template-columns: 50% 50%;
+align-items: start;
+grid-column-gap: 25px;
+}
+.da-page-header {
+grid-column-start: 1;
+grid-column-end: 3;
+}
+fieldset.da-field-buttons {
+grid-column-start: 1;
+grid-column-end: 3;
+margin-top: 30px;
+}
+.form-group.da-group-has-error,
+.form-group.has-error {
+margin: 0 0 1rem;
+border-left: 2px solid #c53b00;
+padding-left: 0;
+padding-right: 0;
+}
+.dashowif .form-group.da-group-has-error,
+.dashowif .form-group.has-error,
+.showif .form-group.da-group-has-error,
+.showif .form-group.has-error {
+border-left: 2px solid #c53b00;
+padding-bottom: 1rem;
+}
+.row.da-field-container.da-field-container-note {
+grid-column-start: 1;
+grid-column-end: 3;
+}
+.dashowif .form-group,
+.showif .form-group {
+margin: 0 0 1rem;
+padding-left: 0;
+padding-right: 0;
+border-left: 2px solid #007bff;
+padding-bottom: 0;
+}
+span.da-has-error {
+font-size: 14px;
+margin: 0;
+}
+@media only screen and (max-width: 575px) {
+form#daform {
+grid-template-columns: 100%;
+grid-column-gap: 0px;
+}
+.da-page-header,
+fieldset.da-field-buttons,
+.row.da-field-container.da-field-container-note,
+.form-group.da-group-has-error,
+.form-group.has-error,
+.dashowif .form-group,
+.showif .form-group {
+grid-column-start: 1;
+grid-column-end: 2; /* Adjusted to ensure consistency in single-column layout */
+}
+}
+.da-form-label .text-info{
+display:none
+}
+.da-form-group:focus-within .text-info {
+display: inline;
+}
+.da-form-group.darequired .da-form-label {
+position: initial !important;
+display: inline-flex;
+align-items: center;
+}
+.da-form-group.darequired .da-form-label::before {
+position: initial !important;
+content: '*';
+color: red;
+margin-left: 4px; /* Adjusts space between the text and the asterisk */
+font-size: 22px;
 }
 select option[value=""]{
 display: none; }
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
 }
-.da-field-radio label:empty,
-.da-field-radio label[aria-label=""],
-.da-field-radio label:not([aria-label]):not(:has(*)) {
-display: none !important;
-}
+
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
 }
