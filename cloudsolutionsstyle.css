@@ -271,7 +271,20 @@ grid-template-columns: unset !important;
 .da-subquestion .table-responsive {
 width: 100% !important;
 max-width: 100% !important;
+display: block;
 }
+
+.da-subquestion .table-responsive table {
+width: 100% !important;
+table-layout: fixed;
+}
+
+.da-subquestion .table-responsive table th,
+.da-subquestion .table-responsive table td {
+padding: 8px;
+word-wrap: break-word;
+}
+
 .da-page-header {
 grid-column-start: 1;
 grid-column-end: 3;
