@@ -147,7 +147,7 @@ background-color: #e6f7fd !important;
 .da-review-button{
 }
 #daform .da-review-action.da-review-action-button, table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger) {
-color: #00adef !important;
+color: #fff !important;
 background-color: #b3e6fa !important;
 }
 #daform .da-review-action.da-review-action-button:hover, table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover{
