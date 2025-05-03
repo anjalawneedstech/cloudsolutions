@@ -254,17 +254,22 @@ align-items: start;
 grid-column-gap: 25px;
 }
 
-/* Reset grid layout for review pages and subquestions */
-.da-review form#daform,
+/* Remove grid layout for review pages and subquestions */
+.da-subquestion {
+width: 100% !important;
+max-width: 100% !important;
+}
+
 .da-subquestion form#daform {
 display: block !important;
-grid-template-columns: unset !important;
-grid-column-gap: unset !important;
 width: 100% !important;
+max-width: 100% !important;
+grid-template-columns: unset !important;
 }
 
 .da-subquestion .table-responsive {
 width: 100% !important;
+max-width: 100% !important;
 }
 .da-page-header {
 grid-column-start: 1;
