@@ -355,49 +355,20 @@ display: none; }
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
 }
-.da-subquestion .table-responsive {
-  margin-bottom: 1.5rem;
-  overflow: auto; /* ensure horizontal scroll on narrow screens */
-}
-.da-subquestion table.table {
-  width: 100% !important;
-  border-collapse: collapse !important;
-  border: 1px solid #d9e3f0 !important; /* light border matching inputs */
-}
-
-/* Header row: primary blue background, white text */
 .da-subquestion table.table thead th {
   background-color: #313B89 !important;
-  color: #ffffff !important;
-  font-weight: 600 !important;
-  text-align: left;
-  padding: 0.75rem !important;
-  border-bottom: 2px solid #00adef !important; /* accent light-blue underline */
+  color:            #ffffff !important;
 }
+
+/* Zebra striping using your light tint */
 .da-subquestion table.table tbody tr:nth-of-type(odd) {
   background-color: #e6f7fd !important;
 }
 .da-subquestion table.table tbody tr:nth-of-type(even) {
   background-color: #ffffff !important;
 }
+
+/* Row hover with your secondary blue */
 .da-subquestion table.table tbody tr:hover {
-  background-color: #d9e3f0 !important;
-}
-.da-subquestion table.table td {
-  padding: 0.75rem !important;
-  border-top: 1px solid #d9e3f0 !important;
-  vertical-align: middle !important;
-}
-.da-subquestion table.table td:last-child {
-  width: 120px !important;
-  text-align: center !important;
-}
-.da-subquestion table.table td a.btn {
-  margin: 0 0.25rem !important;
-  font-size: 0.875rem !important;
-  padding: 0.375rem 0.75rem !important;
-}
-.da-subquestion .table-responsive {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05) !important;
-  border-radius: 4px !important;
+  background-color: #b3e6fa !important;
 }
