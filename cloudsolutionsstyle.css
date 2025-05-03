@@ -208,6 +208,9 @@ color: #fff !important;
 background-color: #00adef !important;
 }
 table.table.table-striped tr td a.btn.btn-darevisit.btn-danger, button.btn.dacollectremoveexisting, button.btn.dacollectremove{
+background-color : rgb(197 59 0 / 100%) !important;
+color : #fff !important;
+border-color : rgb(197 59 0 / 100%) !important;
 }
 table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover, button.btn.dacollectremoveexisting:hover, button.btn.dacollectremove:hover{
 background-color : rgb(197 59 0 / 100%) !important;
