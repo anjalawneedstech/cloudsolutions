@@ -254,11 +254,17 @@ align-items: start;
 grid-column-gap: 25px;
 }
 
-/* Reset grid layout for review pages */
-.da-review form#daform {
-display: block;
-grid-template-columns: unset;
-grid-column-gap: unset;
+/* Reset grid layout for review pages and subquestions */
+.da-review form#daform,
+.da-subquestion form#daform {
+display: block !important;
+grid-template-columns: unset !important;
+grid-column-gap: unset !important;
+width: 100% !important;
+}
+
+.da-subquestion .table-responsive {
+width: 100% !important;
 }
 .da-page-header {
 grid-column-start: 1;
@@ -328,9 +334,9 @@ align-items: center;
 }
 .da-form-group.darequired .da-form-label::before {
 position: initial !important;
-content: '*';
+content: '* ';
 color: red;
-margin-right: 4px; /* Adjusts space between the text and the asterisk */
+margin-left: 4px; /* Adjusts space between the text and the asterisk */
 font-size: 22px;
 }
 select option[value=""]{
