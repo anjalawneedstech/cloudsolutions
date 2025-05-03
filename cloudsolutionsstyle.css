@@ -342,7 +342,7 @@ align-items: center;
 position: initial !important;
 content: '*';
 color: red;
-margin-right: 4px; 
+margin-right: 2px; 
 font-size: 22px;
 }
 select option[value=""]{
