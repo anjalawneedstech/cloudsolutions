@@ -257,25 +257,21 @@ grid-template-columns: 50% 50%;
 align-items: start;
 grid-column-gap: 25px;
 }
-
 .da-subquestion {
-width: 100% !important;
-max-width: 100% !important;
+grid-template-columns: 100% !important;
+grid-column-gap: 0 !important;
 }
-
 .da-subquestion form#daform,
 .da-subquestion .table-responsive,
 .da-subquestion .table-responsive table {
-  display: block !important;
-  width: 100%    !important;
+grid-template-columns: 100% !important;
+grid-column-gap: 0 !important;
 }
-
 .da-subquestion .table-responsive table th,
 .da-subquestion .table-responsive table td {
 padding: 8px;
 word-wrap: break-word;
 }
-
 .da-page-header {
 grid-column-start: 1;
 grid-column-end: 3;
