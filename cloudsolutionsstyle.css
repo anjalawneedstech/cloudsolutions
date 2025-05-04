@@ -220,9 +220,6 @@ border-color : rgb(197 59 0 / 100%) !important;
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 font-family: 'Inter', sans-serif !important;
 }
-h5 {
-  text-align: justify !important;
-}
 .da-subquestion h2, .h2{
 font-family: 'Inter', sans-serif !important;
 }
