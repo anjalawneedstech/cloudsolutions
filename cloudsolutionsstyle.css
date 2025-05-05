@@ -34,7 +34,7 @@ color: #313B89 !important;
 }
 .da-page-header {
 border-bottom-color: #313B89 !important;
-border-bottom-width: 2px !important;
+border-bottom-width: 3px !important;
 }
 .da-page-header h1 {
 font-family: 'Inter', sans-serif !important;
@@ -340,7 +340,7 @@ position: initial !important;
 display: inline-flex;
 align-items: center;
 }
-.da-form-group.darequired.da-field-container .da-form-label::before {
+.da-form-group.darequired.da-field-container .da-form-label[for]::before {
 position: initial !important;
 content: '*';
 color: red;
