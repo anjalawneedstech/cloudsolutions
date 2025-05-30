@@ -160,6 +160,10 @@ table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
   background-color: #00adef   !important; /* secondary light-blue */
   border-color:     #00adef   !important;
 }
+.da-review .table-responsive {
+  grid-column: 1 / -1 !important;
+  width: 100%;
+}
 .da-review-button p{
 }
 .select2-container--default .select2-selection--single, .select2-container--default .select2-search--dropdown .select2-search__field {
