@@ -381,7 +381,7 @@ label.col-md-4.col-form-label.da-form-label.datext-right::after {
   font-family: 'Inter', sans-serif !important;
   color: #313B89 !important;
 }
-button.btn.btn-default.btn-secondary.fileinput-remove.fileinput-remove-button {
+button.btn.btn-default.btn-secondary.kv-hidden.fileinput-cancel.fileinput-cancel-button {
   background-color: #313B89 !important;
   border-color:    #313B89 !important;
   color:           #ffffff !important;
