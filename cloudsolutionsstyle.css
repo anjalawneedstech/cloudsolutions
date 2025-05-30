@@ -362,4 +362,8 @@ select option[value=""]{
 display: none; }
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
-
+} 
+#daMainQuestion::before,
+#daMainQuestion::after {
+  content: none !important;
+}
