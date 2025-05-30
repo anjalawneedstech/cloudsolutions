@@ -371,3 +371,11 @@ label.col-md-4.col-form-label.da-form-label.datext-right::after {
   content: "" !important;
   display: none !important;
 }
+label.col-md-4.col-form-label.da-form-label.datext-right::after {
+  content: '*' !important; 
+  display: none !important; 
+}
+.da-form-group.darequired > label.da-form-label.datext-right::after {
+  content: '*' !important;
+  display: none !important;
+}
