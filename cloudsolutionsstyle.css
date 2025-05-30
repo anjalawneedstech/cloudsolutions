@@ -372,3 +372,7 @@ label.col-md-4.col-form-label.da-form-label.datext-right::after {
   content: '*' !important;
   display: none !important;
 }
+.da-form-group.row.dacollectextrapostheader,
+    .da-form-group.row.dacollectextraheader {
+      grid-column: 1 / -1;
+    }
