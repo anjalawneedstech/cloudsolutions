@@ -386,3 +386,14 @@ button.btn.btn-default.btn-secondary.fileinput-remove.fileinput-remove-button {
   border-color:    #313B89 !important;
   color:           #ffffff !important;
 }
+btn btn-primary btn-file{
+  background-color: #313B89 !important;
+  border-color:    #313B89 !important;
+  color:           #ffffff !important;
+}
+.input-group.file-caption-main .btn-file {
+  font-family: 'Inter', sans-serif !important;
+  background-color: #313B89 !important;
+  border-color:    #313B89 !important;
+  color:           #ffffff !important;
+}
