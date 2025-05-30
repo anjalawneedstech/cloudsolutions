@@ -363,8 +363,11 @@ display: none; }
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
 } 
-body .da-page-header > h1.h3[id="daMainQuestion"]:before,
-body .da-page-header > h1.h3[id="daMainQuestion"]:after {
+label.col-md-4.col-form-label.da-form-label.datext-right::after {
+  content: none !important; 
+  display: none !important; 
+}
+.da-form-group.darequired > label.da-form-label.datext-right::after {
   content: "" !important;
   display: none !important;
 }
