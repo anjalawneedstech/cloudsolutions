@@ -377,12 +377,12 @@ label.col-md-4.col-form-label.da-form-label.datext-right::after {
   grid-column: 1 / -1 !important;
 }
 button.btn.btn-default.btn-secondary.kv-hidden.fileinput-cancel.fileinput-cancel-button {
-  background-color: #313B89 !important;
+  background-color: #ffffff !important;
   border-color:    #313B89 !important;
   color:           #ffffff !important;
 }
 .btn.btn-primary.btn-file {
-  background-color: #313B89 !important;
+  background-color: #ffffff !important;
   border-color:    #313B89 !important;
   color:           #ffffff !important;
 }
