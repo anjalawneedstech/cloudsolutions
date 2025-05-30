@@ -376,6 +376,11 @@ label.col-md-4.col-form-label.da-form-label.datext-right::after {
 .da-form-group.row.dacollectextrapostheader {
   grid-column: 1 / -1 !important;
 }
+.col-md-8.dafieldpart,
+.col-md-8.dafieldpart * {
+  font-family: 'Inter', sans-serif !important;
+  color: #313B89 !important;
+}
 .input-group.file-caption-main,
 .input-group.file-caption-main * {
   font-family: 'Inter', sans-serif !important;
