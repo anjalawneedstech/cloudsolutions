@@ -376,11 +376,6 @@ label.col-md-4.col-form-label.da-form-label.datext-right::after {
 .da-form-group.row.dacollectextrapostheader {
   grid-column: 1 / -1 !important;
 }
-.input-group.file-caption-main,
-.input-group.file-caption-main * {
-  font-family: 'Inter', sans-serif !important;
-  color: #313B89 !important;
-}
 button.btn.btn-default.btn-secondary.kv-hidden.fileinput-cancel.fileinput-cancel-button {
   background-color: #313B89 !important;
   border-color:    #313B89 !important;
