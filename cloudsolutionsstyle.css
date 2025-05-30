@@ -375,4 +375,5 @@ label.col-md-4.col-form-label.da-form-label.datext-right::after {
 .da-form-group.row.dacollectextrapostheader,
     .da-form-group.row.dacollectextraheader {
       grid-column: 1 / -1;
+        width: 100%;
     }
