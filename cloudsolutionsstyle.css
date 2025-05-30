@@ -357,6 +357,7 @@ align-items: center;
   color: red;
   margin-right: 2px;
   font-size: 22px;
+  align-self: flex-start;
 }
 select option[value=""]{
 display: none; }
