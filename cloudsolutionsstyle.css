@@ -151,13 +151,13 @@ background-color: #e6f7fd !important;
 #daform .da-review-action.da-review-action-button,
 table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger) {
   color:            #fff      !important;
-  background-color: #313B89   !important;
+  background-color: #313B89   !important; /* primary blue */
   border-color:     #313B89   !important;
 }
 #daform .da-review-action.da-review-action-button:hover,
 table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
-  color:            #fff      !important;
-  background-color: #00adef   !important; 
+  color:            #fff       !important;
+  background-color: #00adef   !important; /* secondary light-blue */
   border-color:     #00adef   !important;
 }
 .da-review .table-responsive {
@@ -217,14 +217,6 @@ color: #fff !important;
 background-color: #00adef !important;
 }
 table.table.table-striped tr td a.btn.btn-darevisit.btn-danger, button.btn.dacollectremoveexisting, button.btn.dacollectremove{
-  display: inline-block !important;
-  visibility: visible    !important;
-  opacity: 1             !important;
-
-  /* style it as a red “danger” button */
-  color:            #fff      !important;
-  background-color: #c53b00   !important;  /* or #dc3545 if you prefer */
-  border-color:     #c53b00   !important;
 }
 table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover, button.btn.dacollectremoveexisting:hover, button.btn.dacollectremove:hover{
 background-color : rgb(197 59 0 / 100%) !important;
@@ -359,7 +351,7 @@ position: initial !important;
 display: inline-flex;
 align-items: center;
 }
-.da-form-group.darequired > label.da-form-label.datext-right::before {
+label.da-form-label.datext-right::before {
   position: initial !important;
   content: '*';
   color: red;
@@ -370,8 +362,4 @@ select option[value=""]{
 display: none; }
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
-}
-.da-page-header h1::after,
-.da-page-header h1::before {
-  content: none !important;
 }
