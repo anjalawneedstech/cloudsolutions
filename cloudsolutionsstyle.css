@@ -349,9 +349,9 @@ display: inline;
 .da-form-group.darequired .da-form-label {
 position: initial !important;
 display: inline-flex;
-align-items: center;
+align-items: flex-start !important;
 }
-.da-form-group.darequired > label.da-form-label.datext-right::before {
+.da-form-group.darequired .da-form-label.datext-right::before {
   position: initial !important;
   content: '*';
   color: red;
