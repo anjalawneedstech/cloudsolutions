@@ -381,3 +381,8 @@ label.col-md-4.col-form-label.da-form-label.datext-right::after {
   font-family: 'Inter', sans-serif !important;
   color: #313B89 !important;
 }
+.input-group.file-caption-main .btn {
+  background-color: #313B89 !important;
+  border-color:    #313B89 !important;
+  color:           #ffffff !important;
+}
