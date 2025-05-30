@@ -363,10 +363,8 @@ display: none; }
 .da-field-checkboxes label[aria-label=""] {
 display: none !important;
 } 
-.da-page-header h1:before,
-.da-page-header h1:after,
-#daMainQuestion:before,
-#daMainQuestion:after {
+body .da-page-header > h1.h3[id="daMainQuestion"]:before,
+body .da-page-header > h1.h3[id="daMainQuestion"]:after {
   content: "" !important;
   display: none !important;
 }
