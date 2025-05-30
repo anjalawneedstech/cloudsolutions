@@ -151,13 +151,13 @@ background-color: #e6f7fd !important;
 #daform .da-review-action.da-review-action-button,
 table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger) {
   color:            #fff      !important;
-  background-color: #313B89   !important; /* primary blue */
+  background-color: #313B89   !important; /
   border-color:     #313B89   !important;
 }
 #daform .da-review-action.da-review-action-button:hover,
 table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
-  color:            #fff       !important;
-  background-color: #00adef   !important; /* secondary light-blue */
+  color:            #fff      !important;
+  background-color: #00adef   !important; 
   border-color:     #00adef   !important;
 }
 .da-review .table-responsive {
@@ -217,6 +217,14 @@ color: #fff !important;
 background-color: #00adef !important;
 }
 table.table.table-striped tr td a.btn.btn-darevisit.btn-danger, button.btn.dacollectremoveexisting, button.btn.dacollectremove{
+  display: inline-block !important;
+  visibility: visible    !important;
+  opacity: 1             !important;
+
+  /* style it as a red “danger” button */
+  color:            #fff      !important;
+  background-color: #c53b00   !important;  /* or #dc3545 if you prefer */
+  border-color:     #c53b00   !important;
 }
 table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover, button.btn.dacollectremoveexisting:hover, button.btn.dacollectremove:hover{
 background-color : rgb(197 59 0 / 100%) !important;
