@@ -386,3 +386,13 @@ button.btn.btn-default.btn-secondary.kv-hidden.fileinput-cancel.fileinput-cancel
   border-color:    #313B89 !important;
   color:           #ffffff !important;
 }
+button.btn.btn-primary {
+  color: #ffffff !important;
+  background-color: #313B89 !important;
+  border-color: transparent !important;
+}
+button.btn.btn-primary:hover {
+  color: #ffffff !important;
+  background-color: #00adef !important;
+  border-color: #00adef !important;
+}
