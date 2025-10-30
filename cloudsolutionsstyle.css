@@ -396,3 +396,19 @@ button.btn.btn-primary:hover {
   background-color: #00adef !important;
   border-color: #00adef !important;
 }
+a[data-embaction] {
+  font-family: 'Inter', sans-serif !important;
+  color: #fff !important;
+  background-color: #313B89 !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 6px 14px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+}
+
+a[data-embaction]:hover {
+  background-color: #00adef !important;
+  color: #fff !important;
+}
+
