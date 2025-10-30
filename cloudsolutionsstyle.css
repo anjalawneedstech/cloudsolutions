@@ -406,7 +406,6 @@ a[data-embaction] {
   text-decoration: none !important;
   display: inline-block !important;
 }
-
 a[data-embaction]:hover {
   background-color: #00adef !important;
   color: #fff !important;
